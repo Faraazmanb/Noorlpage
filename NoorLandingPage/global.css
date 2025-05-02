@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  overflow-y: auto;
+}
+:root {
+  /* Colors */
+  --primary-color: #e8a345;
+  --primary-dark: #d89230;
+  --primary-light: rgba(232, 163, 69, 0.1);
+  --text-dark: #333;
+  --text-medium: #555;
+  --text-light: #888;
+  --bg-light: #fff;
+  --bg-off: #f9f9f9;
+  --bg-dark: #222;
+  --bg-darker: #111;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 5rem;
+
+  /* Layout */
+  --container-width: 1300px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --box-shadow-sm: 0 5px 15px rgba(0, 0, 0, 0.05);
+  --box-shadow-md: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+  /* Typography */
+  --font-family: "Poppins", sans-serif;
+  --font-size-xs: 0.9rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.2rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 2.5rem;
+  --font-size-xxxl: 3.5rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-default: 0.3s ease;
+  --transition-slow: 0.8s ease;
+}
